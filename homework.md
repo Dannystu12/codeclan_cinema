@@ -131,3 +131,6 @@ UPDATE 1
 ## Extension
 
 1. Research how to delete multiple entries from your table in a single command.
+DELETE FROM movies WHERE id IN(1, 2, 3);
+
+DELETE 3

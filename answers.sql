@@ -18,5 +18,8 @@
 --9.
 -- INSERT INTO movies(title, year, show_time) VALUES('Guardians of the Galaxy 2', 2017, '19:30');
 --10.
-UPDATE movies SET show_time = '21:30' WHERE id = 11;
+--UPDATE movies SET show_time = '21:30' WHERE id = 11;
+--SELECT * FROM movies;
+--11.
+--DELETE FROM movies WHERE id IN(1, 2, 3);
 SELECT * FROM movies;
