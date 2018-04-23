@@ -1,0 +1,22 @@
+-- 1.
+--SELECT * FROM movies;
+-- 2.
+--SELECT name FROM people;
+--3.
+--UPDATE people SET name = 'Davina Sanders' WHERE id = 16;
+--4.
+--SELECT name FROM people WHERE id = 18;
+--5.
+--DELETE FROM movies WHERE id = 9;
+--6.
+--INSERT INTO people(name) VALUES('Sandy McMillan');
+--7.
+--DELETE FROM people WHERE id = 23;
+--8.
+-- UPDATE people SET name = 'Jeff 4' WHERE id = 7;
+-- UPDATE people SET name = 'Jeff 5' WHERE id = 22;
+--9.
+-- INSERT INTO movies(title, year, show_time) VALUES('Guardians of the Galaxy 2', 2017, '19:30');
+--10.
+UPDATE movies SET show_time = '21:30' WHERE id = 11;
+SELECT * FROM movies;
